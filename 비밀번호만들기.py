@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 각 사이트 비밀번호 만들기
 # 규칙1 : http://naver.com 앞의 http:// 잘라내기
 # 규칙2 : 처음 만나는 점 이후 제거
@@ -15,7 +15,7 @@ while True :
     fd.write(password + "\n")   # 있는그대로 출력해버리기 때문에 \n필요
 fd.close()
 
-=======
+
 # 각 사이트 비밀번호 만들기
 # 규칙1 : http://naver.com 앞의 http:// 잘라내기
 # 규칙2 : 처음 만나는 점 이후 제거
@@ -31,5 +31,3 @@ while True :
     print("비밀번호 : " + password)
     fd.write(password + "\n")   # 있는그대로 출력해버리기 때문에 \n필요
 fd.close()
-
->>>>>>> 8a553a3510317d5b1ea59d726f8a4de62c9c22d6
